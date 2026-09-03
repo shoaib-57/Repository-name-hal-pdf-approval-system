@@ -33,7 +33,9 @@ services:
       - pdf-approval-network
 
   frontend:
-    image: pdf-approval-frontend:latest
+    build:
+      context: ./frontend/pdf-approval-frontend
+      dockerfile: Dockerfile
     container_name: pdf-approval-frontend
     depends_on:
       - backend

@@ -1,0 +1,88 @@
+.input-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+    margin-bottom:24px;
+}
+
+.input-label{
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:var(--text-primary);
+}
+
+.required{
+
+    color:var(--danger-color);
+
+    margin-left:4px;
+}
+
+.input-field{
+
+    width:100%;
+
+    height:48px;
+
+    padding:0 15px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:var(--radius-md);
+
+    background:white;
+
+    font-size:15px;
+
+    transition:.3s;
+}
+
+.input-field:focus{
+
+    border-color:var(--primary-color);
+
+    box-shadow:0 0 0 3px rgba(15,42,74,.15);
+}
+
+.input-wrapper{
+
+    position:relative;
+}
+
+.password-toggle{
+
+    position:absolute;
+
+    right:15px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    color:#777;
+
+    font-size:18px;
+}
+
+.password-toggle:hover{
+
+    color:#0F2A4A;
+}
+
+.input-field{
+
+    padding-right:50px;
+}

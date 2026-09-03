@@ -1,0 +1,48 @@
+:root {
+
+    /* ===== Brand Colors ===== */
+
+    --primary-color: #0F2A4A;
+    --primary-hover: #133963;
+
+    --secondary-color: #1F4F82;
+
+    /* ===== Status Colors ===== */
+
+    --success-color: #198754;
+    --warning-color: #FD7E14;
+    --danger-color: #DC3545;
+
+    /* ===== Background ===== */
+
+    --background-color: #F4F6F9;
+    --surface-color: #FFFFFF;
+
+    /* ===== Text ===== */
+
+    --text-primary: #212529;
+    --text-secondary: #6C757D;
+
+    /* ===== Borders ===== */
+
+    --border-color: #D8DEE6;
+
+    /* ===== Radius ===== */
+
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* ===== Shadow ===== */
+
+    --shadow-sm:
+        0 2px 8px rgba(0, 0, 0, .08);
+
+    --shadow-md:
+        0 6px 20px rgba(0, 0, 0, .12);
+
+    --primary-gradient: linear-gradient(180deg,
+            #0F2A4A 0%,
+            #153B63 100%);
+
+}

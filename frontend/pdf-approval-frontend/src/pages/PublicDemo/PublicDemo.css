@@ -1,0 +1,52 @@
+.public-demo-page { min-height: 100vh; background: var(--background-color); color: var(--text-primary); }
+.public-demo-header { min-height: 76px; padding: 14px 5%; background: var(--surface-color); border-bottom: 1px solid var(--border-color); display:flex; align-items:center; justify-content:space-between; gap:24px; position:sticky; top:0; z-index:10; }
+.public-brand { display:flex; align-items:center; gap:12px; min-width:0; }
+.public-brand img { width:48px; height:48px; object-fit:contain; flex:0 0 auto; }
+.public-brand div { display:flex; flex-direction:column; gap:3px; }
+.public-brand strong { font-size:15px; color:var(--primary-color); }
+.public-brand span { font-size:12px; color:var(--text-secondary); }
+.public-login-button, .primary-demo-button, .login-cta button { border-radius:var(--radius-md); font-weight:700; display:inline-flex; align-items:center; justify-content:center; gap:9px; transition:.2s ease; }
+.public-login-button { background:var(--primary-color); color:white; padding:11px 22px; }
+.public-login-button:hover, .primary-demo-button:hover, .login-cta button:hover { background:var(--primary-hover); transform:translateY(-1px); }
+main { max-width:1200px; margin:0 auto; padding:48px 5% 36px; }
+.public-hero { display:grid; grid-template-columns:1.15fr .85fr; gap:36px; align-items:stretch; padding:28px 0 64px; }
+.hero-content { display:flex; flex-direction:column; justify-content:center; }
+.demo-label, .section-heading > span, .technology-section > div:first-child > span, .login-cta > div > span { color:var(--secondary-color); font-size:12px; font-weight:800; letter-spacing:1.4px; }
+.hero-content h1 { margin:14px 0 18px; max-width:720px; color:var(--primary-color); font-size:clamp(36px,5vw,60px); line-height:1.06; }
+.hero-content p { max-width:650px; color:var(--text-secondary); font-size:18px; line-height:1.65; }
+.hero-actions { margin-top:28px; display:flex; align-items:center; flex-wrap:wrap; gap:16px; }
+.primary-demo-button { padding:13px 20px; background:var(--primary-color); color:white; }
+.no-login-note { color:var(--text-secondary); font-size:13px; }
+.hero-panel { background:var(--surface-color); border:1px solid var(--border-color); border-radius:var(--radius-lg); box-shadow:var(--shadow-md); padding:28px; }
+.panel-title { color:var(--primary-color); font-weight:800; font-size:18px; padding-bottom:18px; border-bottom:1px solid var(--border-color); }
+.workflow { padding-top:18px; }
+.workflow-step { display:flex; align-items:center; gap:14px; }
+.workflow-step > span { width:34px; height:34px; border-radius:50%; background:var(--primary-color); color:white; display:grid; place-items:center; font-weight:800; flex:0 0 auto; }
+.workflow-step div { display:flex; flex-direction:column; gap:3px; }
+.workflow-step strong { color:var(--text-primary); font-size:14px; }
+.workflow-step small { color:var(--text-secondary); font-size:12px; }
+.workflow-line { height:25px; width:1px; background:var(--border-color); margin:3px 0 3px 16px; }
+.public-stats-section, .features-section { padding:20px 0 58px; }
+.section-heading { margin-bottom:22px; }
+.demo-data-note { margin-top:7px; color:var(--text-secondary); font-size:13px; }
+.section-heading h2, .technology-section h2 { margin-top:8px; color:var(--primary-color); font-size:28px; }
+.public-stats-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.public-stat-card { background:var(--surface-color); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:22px; display:flex; align-items:center; gap:16px; box-shadow:var(--shadow-sm); }
+.public-stat-icon, .feature-icon { width:44px; height:44px; border-radius:var(--radius-md); background:#eaf0f7; color:var(--secondary-color); display:grid; place-items:center; flex:0 0 auto; }
+.public-stat-card strong { display:block; color:var(--primary-color); font-size:26px; }
+.public-stat-card span { color:var(--text-secondary); font-size:13px; }
+.features-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.feature-card { background:var(--surface-color); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:24px; box-shadow:var(--shadow-sm); }
+.feature-card h3 { margin:18px 0 9px; color:var(--primary-color); font-size:17px; }
+.feature-card p { color:var(--text-secondary); font-size:14px; line-height:1.6; }
+.technology-section { padding:30px; border-radius:var(--radius-lg); background:var(--primary-gradient); color:white; display:grid; grid-template-columns:1fr 1.2fr; gap:30px; align-items:center; }
+.technology-section h2 { color:white; }
+.technology-section > div:first-child > span { color:white; opacity:.8; }
+.technology-list { display:flex; flex-wrap:wrap; gap:10px; justify-content:flex-end; }
+.technology-list span { padding:9px 12px; border:1px solid rgba(255,255,255,.25); border-radius:999px; font-size:12px; color:white; background:rgba(255,255,255,.06); }
+.login-cta { margin-top:58px; padding:26px 28px; background:var(--surface-color); border:1px solid var(--border-color); border-radius:var(--radius-lg); display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.login-cta h2 { margin-top:7px; color:var(--primary-color); font-size:22px; }
+.login-cta button { background:var(--primary-color); color:white; padding:12px 18px; }
+.public-footer { padding:24px 5%; text-align:center; color:var(--text-secondary); font-size:12px; border-top:1px solid var(--border-color); background:var(--surface-color); }
+@media (max-width: 900px) { .public-hero, .technology-section { grid-template-columns:1fr; } .public-stats-grid, .features-grid { grid-template-columns:repeat(2,1fr); } .technology-list { justify-content:flex-start; } }
+@media (max-width: 600px) { .public-demo-header { padding:12px 4%; } .public-brand span { display:none; } main { padding:30px 4% 24px; } .public-hero { padding-bottom:42px; } .hero-content h1 { font-size:38px; } .hero-content p { font-size:16px; } .public-stats-grid, .features-grid { grid-template-columns:1fr; } .login-cta { align-items:flex-start; flex-direction:column; } .login-cta button { width:100%; } }

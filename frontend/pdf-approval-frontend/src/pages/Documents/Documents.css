@@ -1,0 +1,57 @@
+.download-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #1d4ed8;
+}
+.approve-btn{
+
+    background:#16a34a;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-weight:600;
+}
+
+.approve-btn:hover{
+
+    background:#15803d;
+}
+
+.reject-btn{
+
+    background:#dc2626;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-weight:600;
+}
+
+.reject-btn:hover{
+
+    background:#b91c1c;
+}
